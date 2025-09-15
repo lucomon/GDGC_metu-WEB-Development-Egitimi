@@ -303,6 +303,8 @@ Her HTML dosyası aşağıdaki temel yapıya sahip olmalıdır:
 
 ## 📝 Formlar
 
+**Formlar**, kullanıcılardan bilgi toplamak için kullanılan HTML elemanlarıdır. Kayıt olma, giriş yapma, iletişim kurma, anket doldurma gibi işlemlerde kullanılır. Formlar, kullanıcı girişlerini sunucuya göndererek web sitelerinin etkileşimli olmasını sağlar.
+
 ### Temel Form Yapısı
 ```html
 <form action="/gonder" method="post">
