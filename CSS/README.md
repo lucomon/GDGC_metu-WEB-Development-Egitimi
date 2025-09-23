@@ -36,10 +36,61 @@ seçici {
 ```
 
 ### CSS'i HTML'e Bağlama
-```html
-<!-- Harici CSS (Önerilen) -->
-<link rel="stylesheet" href="style.css">
 
+#### 1. Harici CSS Dosyası (Önerilen Yöntem)
+
+Harici CSS dosyası kullanmak en iyi uygulamadır çünkü:
+- **Ayrılık**: HTML yapısı ve CSS stilleri ayrı dosyalarda tutulur
+- **Yeniden kullanım**: Aynı CSS dosyası birden fazla HTML sayfasında kullanılabilir
+- **Bakım kolaylığı**: Stil değişiklikleri tek yerden yapılır
+
+**Küçük HTML örneği:**
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Basit Örnek</title>
+    <!-- Harici CSS dosyasını bağlama -->
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <h1>Merhaba Dünya</h1>
+    <p>Bu bir paragraf metnidir.</p>
+    <div class="kutu">Bu bir kutudur</div>
+</body>
+</html>
+```
+
+**Harici CSS dosyası (stil.css):**
+```css
+/* Başlık stili */
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Paragraf stili */
+p {
+    color: #666;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+/* Kutu stili */
+.kutu {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+```
+
+#### 2. Diğer CSS Bağlama Yöntemleri
+
+```html
 <!-- İç CSS -->
 <style>
     h1 { color: blue; }
@@ -48,6 +99,7 @@ seçici {
 <!-- Satır İçi CSS -->
 <h1 style="color: blue;">Başlık</h1>
 ```
+
 
 ---
 
