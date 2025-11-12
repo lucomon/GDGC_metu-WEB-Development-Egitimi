@@ -1,10 +1,5 @@
 # React Temelleri - Eğitim Materyali
 
-> **Eğitmen:** Faruk Bora Güvenkaya  
-> **Süre:** 4-6 hafta  
-> **Seviye:** Başlangıç  
-> **Ön Gereksinimler:** JavaScript Temelleri, HTML/CSS
-
 ## 📋 İçindekiler
 
 - [React Nedir?](#react-nedir)
