@@ -1,9 +1,5 @@
 # React Orta Seviye - Eğitim Materyali
 
-> **Eğitmen:** Faruk Bora Güvenkaya  
-> **Süre:** 4-6 hafta  
-> **Seviye:** Orta  
-> **Ön Gereksinimler:** React Temelleri, JavaScript İleri Seviye
 
 ## 📋 İçindekiler
 
