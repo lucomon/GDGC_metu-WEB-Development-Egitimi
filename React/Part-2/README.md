@@ -1524,24 +1524,3 @@ function UserManager() {
 }
 ```
 
----
-
-## 🎯 Özet
-
-Bu eğitim materyalinde React'in orta seviye konularını öğrendik:
-
-- **useEffect Hook** - Side effect yönetimi
-- **useReducer Hook** - Karmaşık state yönetimi
-- **useContext Hook** - Global state yönetimi
-- **Custom Hooks** - Yeniden kullanılabilir logic
-- **Component Composition** - Component birleştirme
-- **Higher-Order Components** - Component sarmalama
-- **Render Props Pattern** - Veri paylaşımı
-- **Error Boundaries** - Hata yakalama
-- **Performance Optimization** - Performans iyileştirme
-- **Code Splitting** - Kod bölme
-- **Lazy Loading** - Gecikmeli yükleme
-- **React Router** - Sayfa yönlendirme
-- **API Integration** - API entegrasyonu
-
-Bu konularla artık daha karmaşık React uygulamaları geliştirebilirsiniz. Bir sonraki seviyede ileri düzey konuları öğreneceğiz.
