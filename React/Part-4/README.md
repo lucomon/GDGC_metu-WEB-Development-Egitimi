@@ -1,9 +1,5 @@
 # React'ta API Kullanımı - Detaylı Doküman
 
-> **Eğitmen:** Faruk Bora Güvenkaya  
-> **Tarih:** 2024  
-> **Versiyon:** 1.0
-
 ## 📋 İçindekiler
 
 - [API Nedir?](#api-nedir)
